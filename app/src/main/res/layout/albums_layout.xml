@@ -9,12 +9,12 @@
     >
 
     <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/album"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/gunr3"
+        android:layout_gravity="center"
         android:scaleType="fitXY"
-        android:id="@+id/album"
-        />
+        android:src="@drawable/gunr3" />
 
     <TextView
         android:layout_width="match_parent"
@@ -27,8 +27,27 @@
         android:id="@+id/albumTitle"
         />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Year"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:id="@+id/albumYear"
+        />
 
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Author"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:id="@+id/albumAuthor"
+        />
 
 
 

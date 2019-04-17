@@ -1,6 +1,8 @@
 package com.example.w2019_g3_androidproject.Models;
 
-public class Product
+import java.io.Serializable;
+
+public class Product implements Serializable
 {
     private Integer _productId;
     private String _productName;
